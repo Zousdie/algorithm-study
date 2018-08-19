@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:mingw64}include",
+                "${env:mingw64}opt/include",
+                "${env:mingw64}opt/lib/libffi-3.2.1/include",
+                "${env:mingw64}x86_64-w64-mingw32/include",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include-fixed",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/install-tools/include",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/x86_64-w64-mingw32",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/backward",
+                "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/tr1"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${env:mingw64}include",
+                    "${env:mingw64}opt/include",
+                    "${env:mingw64}opt/lib/libffi-3.2.1/include",
+                    "${env:mingw64}x86_64-w64-mingw32/include",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include-fixed",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/install-tools/include",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/x86_64-w64-mingw32",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/backward",
+                    "${env:mingw64}lib/gcc/x86_64-w64-mingw32/${env:mingw64Version}/include/c++/tr1"
+                ],
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
